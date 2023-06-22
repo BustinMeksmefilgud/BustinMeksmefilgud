@@ -6,7 +6,7 @@ class Home extends Component{
     
     render() {
         return (
-            <div class="flex justify-center items-center mt-44">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-44">
                 <div class="container">
                     <h1 class="text-7xl leading-normal">
                         Hey everyone, This is Sebastian Seth Escarro, and welcome to my domain
