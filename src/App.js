@@ -21,7 +21,7 @@ class App extends Component {
                 <span>Sebastian Seth Escarro</span>
               </p>
               
-              <ul class="md:ml-auto md:mr-auto flex flex-wrap tracking-wide items-center flex gap-x-8">
+              <ul class="md:ml-auto md:mr-auto flex-wrap tracking-wide items-center flex gap-x-8">
                 <li class="hover:scale-1000 duration-300 py-1 hover:text-blue-500"><Link to="/">Home</Link></li>
                   <li class="hover:scale-1000 duration-300 py-1 hover:text-blue-500"><Link to="/About">About Me</Link></li>
                   <li class="hover:scale-1000 duration-300 py-1 hover:text-blue-500"><Link to="/Skills">Skills</Link></li>
