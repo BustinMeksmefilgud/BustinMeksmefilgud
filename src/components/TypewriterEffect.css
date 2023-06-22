@@ -1,0 +1,46 @@
+.typewriter {
+    animation: typing 6s steps(40, end), blink-caret 2s step-end infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #000;
+    }
+  }
+  
+  .cursor {
+    width: 0.2rem;
+    height: 4.0rem;
+    background-color: whitesmoke;
+    display: inline-block;
+  }
+  
+  .blink {
+    animation: blink-caret 0.5s step-end infinite;
+  }
+  
+  @keyframes blink-caret {
+    from,
+    to {
+      background-color: transparent;
+    }
+    50% {
+      background-color: whitesmoke;
+    }
+  }
