@@ -4,9 +4,16 @@ import './TypewriterEffect.css';
 const TypewriterEffect = () => {
   const texts = ["Making it in the digital world one step at a time...       ",
     "Lay down your pieces and let's begin object creation...      ",
-    'world.execute(me);...      ',
-    'Symmetry is overrated me thinks...      ',
-    "What's my endgame, there came a zero?...      "];
+    "world.execute(me);...      ",
+    "Symmetry's overrated me thinks...      ",
+    "What's my endgame, there came a zero?...      ",
+    "It took me 10 years to find the answer to something, I forgot about it in 2 seconds...      ",
+    "Working Harder does make me Better...      ",
+    "Doing it Faster does make me Stronger...      ",
+    "I'd wear a mask of my own face...      ",
+    "Everything works out right in the end, the sun will marry the moon...      ",
+    "It'll be fine...      ",
+    "Sit back mellow again and have a nice afternoon...      "];
   const [currentText, setCurrentText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showCursor, setShowCursor] = useState(true);
@@ -42,8 +49,8 @@ const TypewriterEffect = () => {
 
   return (
     
-    <h3 class="text-teal-400 text-5xl leading-relaxed">{currentText}
-    <span className={`cursor ${showCursor ? 'blink' : ''}`} />
+    <h3 class="text-teal-400 sm:text-3xl lg:text-5xl leading-relaxed">{currentText}
+    <span class={`cursor ${showCursor ? 'blink' : ''}`} />
     </h3>
   );
 };
