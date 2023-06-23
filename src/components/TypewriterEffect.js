@@ -13,7 +13,8 @@ const TypewriterEffect = () => {
     "I'd wear a mask of my own face...      ",
     "Everything works out right in the end, the sun will marry the moon...      ",
     "It'll be fine...      ",
-    "Sit back mellow again and have a nice afternoon...      "];
+    "Sit back mellow again and have a nice afternoon...      ",
+    "Sometimes, all you need is sometinhg simple...      "];
   const [currentText, setCurrentText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showCursor, setShowCursor] = useState(true);

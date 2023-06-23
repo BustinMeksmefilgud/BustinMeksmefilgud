@@ -28,7 +28,7 @@ class App extends Component {
       <div class="bg-teal-800 h-screen">
         <Router>
           <div class="font-mono text-emerald-300 text-2xl bg-teal-800">
-            <nav class="top-0 left-0 w-auto py-6 flex-no-wrap relative flex w-full">
+            <nav class="top-0 left-0 w-auto py-6 flex-no-wrap relative flex">
               <div class="container mx-auto flex justify-between">
                 <p class="flex items-center">
                   <img
