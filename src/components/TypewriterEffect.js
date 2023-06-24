@@ -14,7 +14,8 @@ const TypewriterEffect = () => {
     "Everything works out right in the end, the sun will marry the moon...      ",
     "It'll be fine...      ",
     "Sit back mellow again and have a nice afternoon...      ",
-    "Sometimes, all you need is sometinhg simple...      "];
+    "Sometimes, all you need is sometinhg simple...      ",
+    "We are Happy, We are Hype, We are Here, We are H...      "];
   const [currentText, setCurrentText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showCursor, setShowCursor] = useState(true);

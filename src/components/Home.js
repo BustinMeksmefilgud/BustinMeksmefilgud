@@ -16,7 +16,7 @@ class Home extends Component{
                         <button class="me-8 mt-4 bg-transparent hover:bg-emerald-300 text-emerald-300 font-semibold hover:text-teal-800 py-2 px-4 border border-emerald-300 hover:border-transparent rounded">
                             <a href="https://www.youtube.com/watch?v=0tdyU_gW6WE">Resume</a>
                         </button>
-                        <button class="me-8 bg-transparent hover:bg-emerald-300 text-emerald-300 font-semibold hover:text-teal-800 py-2 px-4 border border-emerald-300 hover:border-transparent rounded">
+                        <button class="me-8 mt-4 bg-transparent hover:bg-emerald-300 text-emerald-300 font-semibold hover:text-teal-800 py-2 px-4 border border-emerald-300 hover:border-transparent rounded">
                             <a href="https://www.youtube.com/watch?v=0tdyU_gW6WE">Introduction Video</a>
                         </button>
                     </div>

@@ -14,7 +14,7 @@ class Skill extends Component{
             <div class="flex flex-col justify-center border-t p-4">
               <h2 class="text-2xl font-bold mb-2">Java Programming</h2>
               <p class="text-emerald-500">
-                I have experienced working using Java as the main language and I have an understannding of OOP concepts
+                I have experienced working using Java as the main language and I have an understanding of OOP concepts
               </p>
             </div>
             <div class="flex flex-col justify-center border-t p-4">
