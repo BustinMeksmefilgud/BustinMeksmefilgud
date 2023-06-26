@@ -3,19 +3,35 @@ import './TypewriterEffect.css';
 
 const TypewriterEffect = () => {
   const texts = ["Making it in the digital world one step at a time...       ",
-    "Lay down your pieces and let's begin object creation...      ",
     "world.execute(me);...      ",
+    "Lay down your pieces and let's begin object creation...      ",
+    "Setup our new world and let's begin the simulation...      ",
     "Symmetry's overrated me thinks...      ",
+    "Nothing worth loving isn't askewed...      ",
+    "We've got only one sky. Blue, Red, and Black Paranoia...      ",
     "What's my endgame, there came a zero?...      ",
     "It took me 10 years to find the answer to something, I forgot about it in 2 seconds...      ",
+    "Almost christmas means it wasn't christmas...      ",
+    "In battle, it's not a question of guilty or not guilty...      ",
     "Working Harder does make me Better...      ",
     "Doing it Faster does make me Stronger...      ",
     "I'd wear a mask of my own face...      ",
+    "Come on and jam out again in this city where anxiety's never any fun...      ",
+    "Don't you ever succumb...      ",
+    "Ringo, Mogire, BEAM!...      ",
     "Everything works out right in the end, the sun will marry the moon...      ",
     "It'll be fine...      ",
     "Sit back mellow again and have a nice afternoon...      ",
-    "Sometimes, all you need is sometinhg simple...      ",
-    "We are Happy, We are Hype, We are Here, We are H...      "];
+    "Sometimes, all you need is something simple...      ",
+    "Like sommething to take care of...      ",
+    "If everyone is not special maybe you can be what you want to be...      ",
+    "Sometimes, it's ok to run away...      ",
+    "Your life is your own...      ",
+    "One and only one...      ",
+    "It seems like we have to deafeat this one to win...      ",
+    "We are Happy, We are Hype, We are Here, We are H...      ",
+    "Go next...      ",
+    "Don't need no credit card to Lag this train...      "];
   const [currentText, setCurrentText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showCursor, setShowCursor] = useState(true);
