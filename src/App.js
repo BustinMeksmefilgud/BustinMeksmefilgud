@@ -27,7 +27,7 @@ class App extends Component {
     return (
       <div className="bg-teal-800 h-screen">
         <Router>
-          <div className="font-mono text-emerald-300 text-2xl bg-teal-800">
+          <div className="font-mono text-emerald-300 text-2xl md:text-3xl bg-teal-800">
             <nav className="top-0 left-0 w-auto py-6 flex-no-wrap relative flex">
               <div className="container mx-auto flex justify-between">
                 <p className="flex items-center">
@@ -68,7 +68,7 @@ class App extends Component {
                   } flex-grow basis-[100%] lg:!flex lg:basis-auto items-center flex`}
                   id="navbarSupportedContent1"
                 >
-                  <ul className="tracking-wide list-style-none mr-auto flex flex-col pl-0 lg:flex-row gap-x-8">
+                  <ul className="text-2xl tracking-wide list-style-none mr-auto flex flex-col pl-0 lg:flex-row gap-x-8">
                     <li
                       className="hover:scale-1000 duration-300 py-1 hover:text-blue-500"
                       data-te-nav-item-ref
