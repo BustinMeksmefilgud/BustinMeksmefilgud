@@ -3,9 +3,10 @@ import './TypewriterEffect.css';
 
 const TypewriterEffect = () => {
   const texts = ["Making it in the digital world one step at a time...       ",
-    "world.execute(me);...      ",
     "Lay down your pieces and let's begin object creation...      ",
-    "Setup our new world and let's begin the simulation...      ",
+    "Setup our new world and let's begin the SIMULATION...      ",
+    "Challenging your god, you have made some ILLEGAL ARGUMENTS",
+    "world.execute(me);...      ",
     "Symmetry's overrated me thinks...      ",
     "Do you know that when you blink, each eye winks slighty off sync...      ",
     "I am lopsided and so are you...      ",
@@ -30,7 +31,6 @@ const TypewriterEffect = () => {
     "Boy 18, continued waiting...      ",
     "I'd wear a mask of my own face...      ",
     "Music, sweet music...      ",
-    "One man cheesburger apocalypse...      ",
     "Just like the ocean under the moon...      ",
     "Give me your heart, make it real...      ",
     "Let's not forget about it...      ",
