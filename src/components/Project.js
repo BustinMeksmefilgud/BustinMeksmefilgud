@@ -18,20 +18,20 @@ class Project extends Component{
                   <div class="px-4 py-3 text-gray-800">
                     <h2 class="text-4xl md:text-5xl font-bold mb-8 text-center hover:-translate-y-1 hover:scale-110 hover:p-4 duration-300"><a target="_blank" href="https://github.com/BustinMeksmefilgud/Know-Your-Neighboorhood">Know Your Neighborhood</a></h2>
                     <p>A website that show faclilities added by users. Made using ReactJS and Spring tool Suite. Integrates Facebook Login API</p>
-                    <div class="container flex flex-wrap sm:hidden group-hover:flex duration-300">
-                      <div class="flex rounded-full items-center bg-teal-100 border-cyan-900 px-4 py-2 mt-4 mr-2">
+                    <div class="container flex flex-wrap sm:hidden group-hover:flex">
+                      <div class="flex rounded-full items-center bg-teal-100 cursor-default hover:bg-teal-500 duration-300 px-4 py-2 mt-4 mr-2">
                         <h1 class="w-4 h-4 sm:w-6 sm:h-6 bg-green-700 rounded-full mr-2"></h1>
                           Java
                       </div>        
-                      <div class="flex rounded-full items-center bg-teal-100 border-cyan-900 px-4 py-2 mt-4 mr-2">
+                      <div class="flex rounded-full items-center bg-teal-100 cursor-default hover:bg-teal-500 duration-300 px-4 py-2 mt-4 mr-2">
                         <h1 class="w-4 h-4 sm:w-6 sm:h-6 bg-green-400 rounded-full mr-2"></h1>
                           Spring
                       </div>    
-                      <div class="flex rounded-full items-center bg-teal-100 border-cyan-900 px-4 py-2 mt-4 mr-2">
+                      <div class="flex rounded-full items-center bg-teal-100 cursor-default hover:bg-teal-500 duration-300 px-4 py-2 mt-4 mr-2">
                         <h1 class="w-4 h-4 sm:w-6 sm:h-6 bg-teal-500 rounded-full mr-2"></h1>
                           React
                       </div>
-                      <div class="flex rounded-full items-center bg-teal-100 border-cyan-900 px-4 py-2 mt-4 mr-2">
+                      <div class="flex rounded-full items-center bg-teal-100 cursor-default hover:bg-teal-500 duration-300 px-4 py-2 mt-4 mr-2">
                         <h1 class="w-4 h-4 sm:w-6 sm:h-6 bg-blue-500 rounded-full mr-2"></h1>
                           MySQL
                       </div>
@@ -50,15 +50,15 @@ class Project extends Component{
                   <h2 class="text-4xl md:text-5xl font-bold mb-8 text-center hover:-translate-y-1 hover:scale-110 hover:p-4 duration-300"><a target="_blank" href="https://github.com/BustinMeksmefilgud/ABC-Car-Portal">ABC Car Portal</a></h2>
                   <p>A used car portal that allows users to post and buy used cars. Made using Spring tool Suite uses spring security for user authentication</p>
                   <div class="container flex flex-wrap sm:hidden group-hover:flex duration-300">
-                      <div class="flex rounded-full items-center bg-teal-100 px-4 py-2 mt-4 mr-2">
+                      <div class="flex rounded-full items-center bg-teal-100 cursor-default hover:bg-teal-500 duration-300 px-4 py-2 mt-4 mr-2">
                         <h1 class="w-4 h-4 sm:w-6 sm:h-6 bg-green-700 rounded-full mr-2"></h1>
                           Java
                       </div>        
-                      <div class="flex rounded-full items-center bg-teal-100 px-4 py-2 mt-4 mr-2">
+                      <div class="flex rounded-full items-center bg-teal-100 cursor-default hover:bg-teal-500 duration-300 px-4 py-2 mt-4 mr-2">
                         <h1 class="w-4 h-4 sm:w-6 sm:h-6 bg-green-400 rounded-full mr-2"></h1>
                           Spring
                       </div>     
-                      <div class="flex rounded-full items-center bg-teal-100 border-cyan-900 px-4 py-2 mt-4 mr-2">
+                      <div class="flex rounded-full items-center bg-teal-100 cursor-default hover:bg-teal-500 duration-300 px-4 py-2 mt-4 mr-2">
                         <h1 class="w-4 h-4 sm:w-6 sm:h-6 bg-blue-500 rounded-full mr-2"></h1>
                           MySQL
                       </div>
