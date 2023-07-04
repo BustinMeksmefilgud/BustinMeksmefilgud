@@ -12,7 +12,7 @@ class AboutMe extends Component {
               <p class="mt-8">Full Name: <br />Sebastian Seth R. Escarro</p>
               <p class="mt-8">Birthday: <br />July 23, 2023</p>
               <p class="mt-8">Location: <br />Cebu City, Philippines</p>
-              <p class="mt-8">Weaknesses: <br />Being stabbed</p>
+              <p class="mt-8">Hobbies: <br />Video Games, Biking</p>
             </div>
           </div>
           <div class="sm:w-1/2 mr-9">
@@ -23,11 +23,7 @@ class AboutMe extends Component {
             </p>
             <h2 class="font-bold text-gray-800">Education</h2>
             <p class="text-gray-700 leading-relaxed mb-4 pb-9 text-justify">
-              I am currently enrolled at the University of Cebu - Banilad, studying in the Computer Studies course. I am also enrolled at Lithan Edculaas Singapore as a Software Engineer.
-            </p>
-            <h2 class="font-bold text-gray-800">Interest and Hobbies</h2>
-            <p class="text-gray-700 leading-relaxed mb-4 text-justify">
-              I enjoy playing video games, especially fighting and rhythm games. I am also interested in the internet as a whole, which offers a world of technology wonders and the ability to achieve things from the comfort of our homes.
+            I am currently pursuing a Computer Studies course at the esteemed University of Cebu - Banilad, equipping me with a strong foundation in computer science principles, programming, software development, algorithms, and database management. Additionally, I am enrolled at Lithan Edculaas in Singapore, actively pursuing a software engineering program to enhance my expertise. This dual enrollment combines theory and practical experience, enabling me to develop innovative software solutions.
             </p>
           </div>
         </div>
