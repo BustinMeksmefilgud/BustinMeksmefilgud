@@ -25,15 +25,15 @@ class App extends Component {
     const { isOpen } = this.state;
 
     return (
-      <div className="bg-teal-800 h-screen">
+      <div class="bg-teal-800 h-screen">
         <Router>
-          <div className="font-mono text-emerald-300 text-2xl md:text-3xl bg-teal-800">
-            <nav className="top-0 left-0 w-auto py-6 flex-no-wrap relative flex">
-              <div className="container mx-auto flex justify-between">
-                <p className="flex items-center">
+          <div class="font-mono text-emerald-300 text-2xl md:text-3xl bg-teal-800">
+            <nav class="top-0 left-0 w-auto py-6 flex-no-wrap relative flex">
+              <div class="container mx-auto flex justify-between">
+                <p class="flex items-center">
                   <img
                     src="./assets/img/log.png"
-                    className="animate-bounce"
+                    class="animate-bounce"
                     alt="logo"
                     height="100"
                     width="100"
@@ -41,17 +41,17 @@ class App extends Component {
                 </p>
 
                 <button
-                  className="block border-0 bg-transparent px-2 text-emerald-500 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden absolute top-3 right-3 z-10"
+                  class="block border-0 bg-transparent px-2 text-emerald-500 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden absolute top-3 right-3 z-10"
                   type="button"
                   onClick={this.toggleMenu}
                   aria-label="Toggle navigation"
                 >
-                  <span className="[&>svg]:w-7">
+                  <span class="[&>svg]:w-7">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
                       fill="currentColor"
-                      className="h-7 w-7"
+                      class="h-7 w-7"
                     >
                       <path
                         fillRule="evenodd"
@@ -63,38 +63,38 @@ class App extends Component {
                 </button>
 
                 <div
-                  className={`${
+                  class={`${
                     isOpen ? 'visible slide-down' : 'hidden'
                   } flex-grow basis-[100%] lg:!flex lg:basis-auto items-center flex`}
                   id="navbarSupportedContent1"
                 >
-                  <ul className="text-2xl tracking-wide list-style-none mr-auto flex flex-col pl-0 lg:flex-row gap-x-8">
+                  <ul class="text-2xl tracking-wide list-style-none mr-auto flex flex-col pl-0 lg:flex-row gap-x-8">
                     <li
-                      className="hover:scale-1000 duration-300 py-1 hover:text-blue-500"
+                      class="hover:scale-1000 duration-300 py-1 hover:text-blue-500"
                       data-te-nav-item-ref
                     >
                       <Link to="/">Home</Link>
                     </li>
                     <li
-                      className="hover:scale-1000 duration-300 py-1 hover:text-blue-500"
+                      class="hover:scale-1000 duration-300 py-1 hover:text-blue-500"
                       data-te-nav-item-ref
                     >
                       <Link to="/About">About Me</Link>
                     </li>
                     <li
-                      className="hover:scale-1000 duration-300 py-1 hover:text-blue-500"
+                      class="hover:scale-1000 duration-300 py-1 hover:text-blue-500"
                       data-te-nav-item-ref
                     >
                       <Link to="/Skills">Skills</Link>
                     </li>
                     <li
-                      className="hover:scale-1000 duration-300 py-1 hover:text-blue-500"
+                      class="hover:scale-1000 duration-300 py-1 hover:text-blue-500"
                       data-te-nav-item-ref
                     >
                       <Link to="/Projects">Projects</Link>
                     </li>
                     <li
-                      className="hover:scale-1000 duration-300 py-1 hover:text-blue-500"
+                      class="hover:scale-1000 duration-300 py-1 hover:text-blue-500"
                       data-te-nav-item-ref
                     >
                       <Link to="/Contact">Contact Me</Link>
@@ -111,7 +111,7 @@ class App extends Component {
               <Route path="/Contact" element={<ContactMe />} />
             </Routes>
           </div>
-          <div className="grid place-items-center mx-auto text-teal-800 bg-teal-800">
+          <div class="grid place-items-center mx-auto text-teal-800 bg-teal-800">
             Secret! but empty... Like my soul
           </div>
         </Router>
