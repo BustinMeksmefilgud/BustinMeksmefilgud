@@ -66,6 +66,8 @@ class Project extends Component{
                 </div>
               </div>
               
+              {/*End of Row 1*/}   
+
                {/* Project 3 */}
               
                <div class="group bg-teal-200 hover:bg-teal-300 duration-300 p-4">
@@ -94,7 +96,33 @@ class Project extends Component{
                 </div>
               </div>
           
-            {/*End of Row 1*/}   
+           {/* Project 4 */}
+              
+           <div class="group bg-teal-200 hover:bg-teal-300 duration-300 p-4">
+                <a target="_blank" href="https://github.com/BustinMeksmefilgud/ABC-Job-Portal">    
+                  <img src="./assets/img/Picture3.png" alt="A project of mine" class="object-cover w-full h-80 hover:-translate-y-1 hover:scale-60 hover:p-4 duration-300" />
+                </a> 
+                <div class="px-4 py-3 text-gray-800">
+                  <h2 class="text-4xl md:text-5xl font-bold mb-8 text-center hover:-translate-y-1 hover:scale-110 hover:p-4 duration-300"><a target="_blank" href="https://github.com/BustinMeksmefilgud/ABC-Job-Portal">ABC Job Portal</a></h2>
+                  <p>A job portal where users can post threads for other users to see, apply for jobs created by the administrator, and search for other
+                  users registered on the portal. Created using Spring MVC. 
+                  </p>
+                  <div class="container flex flex-wrap sm:hidden group-hover:flex duration-300">
+                      <div class="flex rounded-full items-center bg-teal-100 cursor-default hover:bg-teal-500 duration-300 px-4 py-2 mt-4 mr-2">
+                        <h1 class="w-4 h-4 sm:w-6 sm:h-6 bg-green-700 rounded-full mr-2"></h1>
+                          Java
+                      </div>        
+                      <div class="flex rounded-full items-center bg-teal-100 cursor-default hover:bg-teal-500 duration-300 px-4 py-2 mt-4 mr-2">
+                        <h1 class="w-4 h-4 sm:w-6 sm:h-6 bg-green-500 rounded-full mr-2"></h1>
+                          Spring MVC
+                      </div>     
+                      <div class="flex rounded-full items-center bg-teal-100 cursor-default hover:bg-teal-500 duration-300 px-4 py-2 mt-4 mr-2">
+                        <h1 class="w-4 h-4 sm:w-6 sm:h-6 bg-blue-500 rounded-full mr-2"></h1>
+                          MySQL
+                      </div>
+                    </div>
+                </div>
+              </div>
 
 
             </div>
