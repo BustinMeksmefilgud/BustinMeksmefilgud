@@ -5,7 +5,7 @@ class AboutMe extends Component {
     return (
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
         <h1 class="text-5xl font-bold text-emerald-300 mb-4">About Me</h1>
-        <div class="bg-teal-400 p-6 rounded shadow-md flex flex-col sm:flex-row">
+        <div class="bg-teal-400 p-6 rounded shadow-md flex flex-col sm:flex-row cursor-default">
           <div class="sm:mr-6 mb-6 sm:mb-0 sm:w-1/2">
             <img src="./assets/img/me.jpg" alt="Profile" class="w-full max-w-md" />
             <div class="font-bold text-emerald-800 mt-6 sm:mt-0">
@@ -15,14 +15,14 @@ class AboutMe extends Component {
               <p class="mt-8">Hobbies: <br />Video Games, Biking</p>
             </div>
           </div>
-          <div class="sm:w-1/2 mr-9">
+          <div class="sm:w-1/2 mr-9 cursor-default">
            
             <h2 class="font-bold text-gray-800 mt-6">Hello, I'm Sebastian Seth</h2>
-            <p class="text-gray-700 leading-relaxed mb-4 pb-9 text-justify">
-              You can call me Sebastian, but Seth is easier to say. I also like to be referred to as Bustin. I am an aspiring software engineer, looking to learn more about coding.
+            <p class="text-gray-700 leading-relaxed mb-4 pb-9">
+              You can call me Sebastian, but Seth is easier to say. I also like to be referred to as <a href="https://www.youtube.com/watch?v=0tdyU_gW6WE" className="cursor-default">Bustin</a>. I am an aspiring software engineer, looking to learn more about coding.
             </p>
             <h2 class="font-bold text-gray-800">Education</h2>
-            <p class="text-gray-700 leading-relaxed mb-4 pb-9 text-justify">
+            <p class="text-gray-700 leading-relaxed mb-4 pb-9">
             I am currently pursuing a Computer Studies course at the esteemed University of Cebu - Banilad, equipping me with a strong foundation in computer science principles, programming, software development, algorithms, and database management. Additionally, I am enrolled at Lithan Edculaas in Singapore, actively pursuing a software engineering program to enhance my expertise. This dual enrollment combines theory and practical experience, enabling me to develop innovative software solutions.
             </p>
           </div>
