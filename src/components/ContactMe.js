@@ -32,7 +32,7 @@ class ContactMe extends Component{
                                 <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
                             </svg>
 
-                            <span class="text-emerald-200">+63 935-235-9240</span>
+                            <span class="text-emerald-200">(0917) 104 9083</span>
                         </div>
 
 
