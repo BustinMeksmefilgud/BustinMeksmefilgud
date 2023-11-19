@@ -124,7 +124,7 @@ class App extends Component {
               <Route path="/Contact" element={<ContactMe />} />
             </Routes>
           </div>
-          <div class="grid place-items-center mx-auto text-teal-800 bg-teal-800">
+          <div class="grid place-items-center mx-auto py-5 text-teal-800 bg-teal-800">
             Secret! but empty... Like my soul
           </div>
         </Router>

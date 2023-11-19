@@ -7,7 +7,7 @@ class ContactMe extends Component{
         return (
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
                 <h1 class="text-5xl font-bold mb-4">Contact Me</h1>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="container">
                     <div>
                         <h2 class="text-2xl font-bold mb-10">Get in Touch</h2>
                         <p class="text-emerald-600 mb-10">
@@ -61,22 +61,7 @@ class ContactMe extends Component{
                             <span class="text-emerald-200"><a target="_blank" href="https://www.facebook.com/sebastianseth.escarro">Sebastian Seth Escarro</a></span>
                         </div>
                     </div>
-                    <form class="bg-teal-400 rounded-lg shadow-md p-6">
-                    <h2 class="text-2xl font-bold mb-4 text-gray-800">Send a Message</h2>
-                    <div class="mb-4">
-                        <label class="block text-gray-700 text-sm font-bold mb-2" for="name">Name</label>
-                        <input class="w-full px-3 py-2 border border-emerald-300 rounded focus:outline-none focus:border-indigo-500" id="name" type="text" placeholder="Your Name" />
-                    </div>
-                    <div class="mb-4">
-                        <label class="block text-gray-700 text-sm font-bold mb-2" for="email">Email</label>
-                        <input class="w-full px-3 py-2 border border-emerald-300 rounded focus:outline-none focus:border-indigo-500" id="email" type="email" placeholder="Your Email" />
-                    </div>
-                    <div class="mb-4">
-                        <label class="block text-gray-700 text-sm font-bold mb-2" for="message">Message</label>
-                        <textarea class="w-full px-3 py-2 border border-emerald-300 rounded focus:outline-none focus:border-indigo-500" id="message" rows="5" placeholder="Your Message"></textarea>
-                    </div>
-                    <button class="bg-indigo-500 text-white px-4 py-2 rounded font-bold hover:bg-indigo-700" type="submit">Send</button>
-                    </form>
+
                 </div>
             </div>
 
