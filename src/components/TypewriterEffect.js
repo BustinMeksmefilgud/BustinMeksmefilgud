@@ -14,7 +14,7 @@ const TypewriterEffect = () => {
     "It'll be fine...                                                    ",
     "Sometimes, all you need is something simple...                                                    ",
     "One and only one...                                                    ",
-    "It seems like we have to deafeat this one to win...                                                    ",
+    "It seems like we have to defeat this one to win...                                                    ",
     "We are Happy, We are Hype, We are Here, We are H...                                                    ",
     "Good, he's still in One Piece...                                                    ",
     "world.search(you);...                                                    ",

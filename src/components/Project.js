@@ -14,7 +14,7 @@ class Project extends Component{
           imageSrc: './assets/img/JumpTrackpro.png',
           description:
             'An inventory management system that shows warehouse stock and allows managers to order stock for their stores and make sales. Lists products, employees, and stores that have the most sales. Created using React and Spring.',
-          badges: ['Java', 'Spring', 'React', 'MySQL'],
+          badges: ['Java', 'Spring', 'React', 'MySQL', 'JWT'],
           link: 'https://github.com/BustinMeksmefilgud/JumpTrackPro',
         },
         {
@@ -57,6 +57,7 @@ class Project extends Component{
         React: 'bg-teal-500',
         MySQL: 'bg-blue-500',
         SpringMVC: 'bg-green-500',
+        JWT: 'bg-zinc-900',
       },
     }
   }
