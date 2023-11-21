@@ -14,7 +14,7 @@ class Project extends Component{
           imageSrc: './assets/img/JumpTrackpro.png',
           description:
             'An inventory management system that shows warehouse stock and allows managers to order stock for their stores and make sales. Lists products, employees, and stores that have the most sales. Created using React and Spring.',
-          badges: ['Java', 'Spring', 'React', 'MySQL', 'JWT'],
+          badges: ['Java', 'Spring', 'React', 'MySQL', 'JWT', 'REST'],
           link: 'https://github.com/BustinMeksmefilgud/JumpTrackPro',
         },
         {
@@ -30,7 +30,7 @@ class Project extends Component{
           imageSrc: './assets/img/Picture2.png',
           description:
             'A website that shows facilities added by users. Made using ReactJS and Spring tool Suite. Integrates Facebook Login API.',
-          badges: ['Java', 'Spring', 'React', 'MySQL'],
+          badges: ['Java', 'Spring', 'React', 'MySQL', 'REST'],
           link: 'https://github.com/BustinMeksmefilgud/Know-Your-Neighboorhood',
         },
         {
@@ -58,6 +58,7 @@ class Project extends Component{
         MySQL: 'bg-blue-500',
         SpringMVC: 'bg-green-500',
         JWT: 'bg-zinc-900',
+        REST: 'bg-cyan-300',
       },
     }
   }

@@ -47,7 +47,7 @@ class Skill extends Component{
             <div data-aos="fade-right" class="flex flex-col justify-center border-t p-4">
               <h2 class="text-2xl font-bold mb-2">Spring Security</h2>
               <p class="text-emerald-500">
-                I have developed websites using <b className="text-emerald-100">Spring Boot</b> using <b className="text-emerald-100">Spring Security</b> for encryption and authentication
+              I worked with <b className="text-emerald-100">Spring Tool Suite and Eclipse IDE</b> in developing using <b className="text-emerald-100">Spring Boot</b> with <b className="text-emerald-100">Spring Security</b> for encryption and authentication.
               </p>
             </div>
             <div data-aos="fade-right" class="hidden sm:flex items-center justify-center border-t p-4">

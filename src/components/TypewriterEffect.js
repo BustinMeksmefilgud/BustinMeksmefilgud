@@ -18,6 +18,7 @@ const TypewriterEffect = () => {
     "We are Happy, We are Hype, We are Here, We are H...                                                    ",
     "Good, he's still in One Piece...                                                    ",
     "world.search(you);...                                                    ",
+    "You can't see me behind the screen...                                                    ",
     "Go next...                                                    "];
     
   const [currentText, setCurrentText] = useState('');
