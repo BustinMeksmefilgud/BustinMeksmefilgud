@@ -74,7 +74,7 @@ class Project extends Component{
             </figure>
             <div className="card-body items-center text-center mx-4 px-4 py-3">
             <h2 className="card-title text-4xl md:text-5xl font-bold my-8 text-center hover:-translate-y-1 hover:scale-110 duration-300"><a target="_blank" href={p.link}>{p.name}</a></h2>
-            <p>{p.description}</p>
+            <p className="cursor-default">{p.description}</p>
               <div className="m-4 container text-gray-800 text-lg md:text-xl flex flex-wrap">
               {p.badges.map((badge, badgeIndex) => (
           <div key={badgeIndex}
@@ -90,7 +90,7 @@ class Project extends Component{
 
         return (
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
-            <h1 className="text-5xl font-bold mb-8">My Projects</h1>
+            <h1 className="text-5xl font-bold mb-8 cursor-default">My Projects</h1>
             <div className="text-base sm:text-lg grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
       
             {projectList}

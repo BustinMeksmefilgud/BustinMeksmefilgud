@@ -14,11 +14,11 @@ class App extends Component {
 
 
     return (
-      <div class="bg-teal-800 h-screen">
+      <div class="bg-gradient-to-tr lg:bg-gradient-to-tl from-teal-900 via-teal-700 to-emerald-700 min-h-screen bg-fixed">
         <Router>
-          <div class="font-mono text-emerald-300 text-2xl md:text-3xl bg-teal-800">
+          <div class="font-mono text-emerald-300 text-2xl md:text-3xl pb-20">
 
-          <div className="navbar">
+          <div className="group navbar">
             <div className="navbar-start">
               <div className="dropdown lg:hidden me-5">
                 <label tabIndex={0} className="btn btn-ghost btn-circle">
@@ -26,41 +26,49 @@ class App extends Component {
                 </label>
                 <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 bg-slate-900">
                 <li
-                      class="hover:scale-1000 duration-300 py-1 hover:text-blue-500"
+                      class="hover:text-3xl duration-300 py-1 hover:text-blue-500"
                       data-te-nav-item-ref
                     >
                       <Link to="/">Home</Link>
                     </li>
                     <li
-                      class="hover:scale-1000 duration-300 py-1 hover:text-blue-500"
+                      class="hover:text-3xl duration-300 py-1 hover:text-blue-500"
                       data-te-nav-item-ref
                     >
                       <Link to="/About">About Me</Link>
                     </li>
                     <li
-                      class="hover:scale-1000 duration-300 py-1 hover:text-blue-500"
+                      class="hover:text-3xl duration-300 py-1 hover:text-blue-500"
                       data-te-nav-item-ref
                     >
                       <Link to="/Skills">Skills</Link>
                     </li>
                     <li
-                      class="hover:scale-1000 duration-300 py-1 hover:text-blue-500"
+                      class="hover:text-3xl duration-300 py-1 hover:text-blue-500"
                       data-te-nav-item-ref
                     >
                       <Link to="/Projects">Projects</Link>
                     </li>
                     <li
-                      class="hover:scale-1000 duration-300 py-1 hover:text-blue-500"
+                      class="hover:text-3xl duration-300 py-1 hover:text-blue-500"
                       data-te-nav-item-ref
                     >
                       <Link to="/Contact">Contact Me</Link>
                     </li>
                 </ul>
               </div>
-            <p class="lg:flex hidden items-center">
+            <p class="lg:flex hidden items-center group-hover:animate-bounce">
                   <img
                     src="./assets/img/log.png"
-                    class="animate-pulse"
+                    class="xl:animate-pulse"
+                    alt="logo"
+                    height="100"
+                    width="100"
+                  />
+                </p>
+            <p class="xl:flex hidden fixed items-center group-hover:animate-bounce">
+                <img
+                    src="./assets/img/log.png"
                     alt="logo"
                     height="100"
                     width="100"
@@ -70,31 +78,31 @@ class App extends Component {
             <div className="navbar-center">
             <ul class="text-2xl tracking-wide list-style-none mr-auto pl-0 hidden lg:flex flex-row gap-x-8">
                     <li
-                      class="hover:scale-1000 duration-300 py-1 hover:text-blue-500"
+                      class="hover:text-3xl duration-300 py-1 hover:text-blue-500"
                       data-te-nav-item-ref
                     >
                       <Link to="/">Home</Link>
                     </li>
                     <li
-                      class="hover:scale-1000 duration-300 py-1 hover:text-blue-500"
+                      class="hover:text-3xl duration-300 py-1 hover:text-blue-500"
                       data-te-nav-item-ref
                     >
                       <Link to="/About">About Me</Link>
                     </li>
                     <li
-                      class="hover:scale-1000 duration-300 py-1 hover:text-blue-500"
+                      class="hover:text-3xl duration-300 py-1 hover:text-blue-500"
                       data-te-nav-item-ref
                     >
                       <Link to="/Skills">Skills</Link>
                     </li>
                     <li
-                      class="hover:scale-1000 duration-300 py-1 hover:text-blue-500"
+                      class="hover:text-3xl duration-300 py-1 hover:text-blue-500"
                       data-te-nav-item-ref
                     >
                       <Link to="/Projects">Projects</Link>
                     </li>
                     <li
-                      class="hover:scale-1000 duration-300 py-1 hover:text-blue-500"
+                      class="hover:text-3xl duration-300 py-1 hover:text-blue-500"
                       data-te-nav-item-ref
                     >
                       <Link to="/Contact">Contact Me</Link>
@@ -124,10 +132,11 @@ class App extends Component {
               <Route path="/Contact" element={<ContactMe />} />
             </Routes>
           </div>
-          <div class="grid place-items-center mx-auto py-5 text-teal-800 bg-teal-800">
-            Secret! but empty... Like my soul
+          <div class="cursor-default text-center py-5 xl:fixed xl:bottom-60 xl:right-0 mx-auto text-emerald-300 xl:-rotate-90">
+            <p>Sebastian Seth Escarro | 2023</p>
           </div>
         </Router>
+        
       </div>
     );
   }

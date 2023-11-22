@@ -56,7 +56,7 @@ const TypewriterEffect = () => {
 
   return (
     
-    <h3 class="text-teal-400 sm:text-3xl lg:text-5xl leading-relaxed">{currentText}
+    <h3 class="text-teal-400 sm:text-3xl lg:text-5xl leading-relaxed animate-pulse cursor-default">{currentText}
     <span class={`cursor ${showCursor ? 'blink' : ''}`} />
     </h3>
   );

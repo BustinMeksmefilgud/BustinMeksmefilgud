@@ -9,7 +9,7 @@ class Skill extends Component{
     
     render() {
       return (
-        <div  class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6 font-normal">
+        <div  class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6 font-normal cursor-default">
           <h1 class="text-5xl font-bold text-emerald-300 mb-4">My Skills</h1>
 
           <div class="text-xl grid container mx-auto grid-cols-1 grid-rows-2 sm:grid-cols-2 sm:grid-rows-1 gap-4 mt-16">
@@ -72,7 +72,7 @@ class Skill extends Component{
             <div data-aos="fade-right" class="flex flex-col justify-center border-t p-4">
               <h2 class="text-2xl font-bold mb-2">React Development</h2>
               <p class="text-emerald-500">
-                I have used <b className="text-emerald-100">React</b> to create front-end designs and I am familiar with <b className="text-emerald-100">Bootstrap</b> and <b className="text-emerald-100">Tailwindcss</b>
+                I have used <b className="text-emerald-100">React</b> to create front-end designs while using <b className="text-emerald-100">REST API</b> for connecting with the back-end and I am familiar with <b className="text-emerald-100">Bootstrap</b> and <b className="text-emerald-100">Tailwindcss</b>
               </p>
             </div>
             <div data-aos="fade-right" class="hidden sm:flex items-center justify-center border-t p-4">

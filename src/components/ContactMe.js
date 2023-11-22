@@ -46,11 +46,11 @@ class ContactMe extends Component{
         ));
         return (
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
-                <h1 className="text-5xl font-bold mb-4">Contact Me</h1>
-                <div className="container">
+                <h1 className="cursor-default text-5xl font-bold mb-4">Contact Me</h1>
+                <div className="cursor-default container">
                     <div>
                         <h2 className="text-2xl font-bold mb-10">Get in Touch</h2>
-                        <p className="text-emerald-600 mb-10">
+                        <p className="text-emerald-500 mb-10 animate-pulse">
                             Want to send me a banana? You can't but I would like to hear from you anyway
                         </p>
                     <div data-aos="fade-right">
