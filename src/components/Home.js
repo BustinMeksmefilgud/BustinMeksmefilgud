@@ -14,7 +14,7 @@ class Home extends Component{
                     <TypewriterEffect />
                     <div class="mt-20">
                         <button class="me-8 mt-4 bg-transparent hover:bg-emerald-300 text-emerald-300 font-semibold hover:text-teal-800 py-2 px-4 border border-emerald-300 hover:border-transparent rounded">
-                            <a href="/">Resume</a>
+                            <a target="_blank" href="https://drive.google.com/file/d/1lzvRylansTwPfsNati20QCMVdFfg60y6/view?usp=sharing">Resume</a>
                         </button>
                         <button class="me-8 mt-4 bg-transparent hover:bg-emerald-300 text-emerald-300 font-semibold hover:text-teal-800 py-2 px-4 border border-emerald-300 hover:border-transparent rounded">
                             <a target="_blank" href="https://youtu.be/47VIfABvEm0">Introduction Video</a>

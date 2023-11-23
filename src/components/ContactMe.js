@@ -37,7 +37,7 @@ class ContactMe extends Component{
         const socialList = socials.map((s) => (
             <div data-aos="fade-up" className="group/ic w-max mx-auto">
             <a target="_blank" href={s.link}>
-                <img src={s.imageSrc} alt={s.name} className="h-32 w-32 mx-auto my-10 group-hover/ic:mb-2" />
+                <img src={s.imageSrc} alt={s.name} className="scale-75 md:scale-100 h-32 w-32 mx-auto md:my-10 group-hover/ic:mb-2" />
                 <div className="md:hidden group-hover/ic:flex">
                         <p className="mx-auto">{s.name}</p>
                 </div>
@@ -79,7 +79,7 @@ class ContactMe extends Component{
                     </div>
 
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-7">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-7">
                         {socialList}
                         </div>
 

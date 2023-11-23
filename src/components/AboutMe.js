@@ -18,7 +18,7 @@ class AboutMe extends Component {
           <div data-aos="fade-left" className="sm:w-1/2 cursor-default text-center">
            
             <h2 className="font-bold text-emerald-300 mt-6">Hello, I'm Sebastian Seth</h2>
-            <p className="text-emerald-400 text-xl leading-relaxed mb-4">
+            <p className="text-emerald-400 text-lg sm:text-xl leading-relaxed mb-4">
               You can call me Sebastian, but Seth is easier to say. I also like to be referred to as <a href="https://www.youtube.com/watch?v=0tdyU_gW6WE" className="cursor-default">Bustin</a>. I am an aspiring software engineer, looking to learn more about coding.
             </p>
             <div className="grid grid-cols-2 text-xl text-emerald-300 py-6 mt-6 sm:mt-0">
@@ -32,7 +32,7 @@ class AboutMe extends Component {
         </div>
         <div data-aos="fade-up" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-5xl font-bold mb-8">Education</h1>
-            <p className="text-xl text-emerald-400 leading-relaxed mb-4 pb-9">
+            <p className="text-lg sm:text-xl text-emerald-400 leading-relaxed mb-4 pb-9">
             I am currently pursuing a Computer Studies course at the esteemed University of Cebu - Banilad, equipping me with a strong foundation in computer science principles, programming, software development, algorithms, and database management. Additionally, I am enrolled at Lithan Edculaas in Singapore, actively pursuing a software engineering program to enhance my expertise. This dual enrollment combines theory and practical experience, enabling me to develop innovative software solutions.
             </p>
         </div>
