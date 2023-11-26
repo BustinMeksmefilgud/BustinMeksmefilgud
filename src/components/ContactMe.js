@@ -53,24 +53,22 @@ class ContactMe extends Component{
                         <p className="text-emerald-500 mb-10 animate-pulse">
                             Want to send me a banana? You can't but I would like to hear from you anyway
                         </p>
-                    <div data-aos="fade-right">
+                    <div data-aos="fade-right" className="text-lg sm:text-2xl">
                         <div className="flex items-center mb-2 pb-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-house w-12 h-12 text-emerald-500 mr-6" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
-                                <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                            <svg className="w-10 h-10 text-emerald-500 mr-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8v10a1 1 0 0 0 1 1h4v-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5h4a1 1 0 0 0 1-1V8M1 10l9-9 9 9"/>
                             </svg>
                             <span className="text-emerald-200">13 Anika Homes, Buhisan Street, Buhisan, Cebu City</span>
                         </div>
                         <div className="flex items-center mb-2 pb-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-envelope w-8 h-8 text-emerald-500 mr-6" viewBox="0 0 16 16">
-                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                            <svg className="w-5 h-5 sm:w-9 sm:h-9 text-emerald-500 mr-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 2-8.4 7.05a1 1 0 0 1-1.2 0L1 2m18 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1m18 0v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2"/>
                             </svg>
                             <span className="text-emerald-200">escarro.sebastian@gmail.com</span>
                         </div>
                         <div className="flex items-center mb-2 pb-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-phone w-8 h-8 text-emerald-500 mr-6" viewBox="0 0 16 16">
-                                <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
-                                <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                            <svg className="w-6 h-6 sm:w-10 sm:h-10 text-emerald-500 mr-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 14h12M1 4h12M6.5 16.5h1M2 1h10a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1Z"/>
                             </svg>
 
                             <span className="text-emerald-200">(0917) 104 9083</span>

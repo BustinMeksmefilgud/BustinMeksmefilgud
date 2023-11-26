@@ -66,7 +66,7 @@ class Project extends Component{
     render() {
       const { projects, badgeColors } = this.state;
       const projectList = projects.map((p) => (
-        <div data-aos="flip-left" className="card bg-base-100 hover:bg-base-300">
+        <div data-aos="flip-left" className="card bg-neutral-900 hover:bg-neutral-800">
             <figure>                
             <a target="_blank" href={p.link}>    
               <img src={p.imageSrc} alt="A project of mine" className="object-contain h-60 hover:scale-110 duration-300"/>
