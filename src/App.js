@@ -41,12 +41,6 @@ class App extends Component {
                       class="hover:text-3xl duration-300 py-1 hover:text-blue-500"
                       data-te-nav-item-ref
                     >
-                      <Link to="/Skills">Skills</Link>
-                    </li>
-                    <li
-                      class="hover:text-3xl duration-300 py-1 hover:text-blue-500"
-                      data-te-nav-item-ref
-                    >
                       <Link to="/Projects">Projects</Link>
                     </li>
                     <li
@@ -93,12 +87,6 @@ class App extends Component {
                       class="hover:text-3xl duration-300 py-1 hover:text-blue-500"
                       data-te-nav-item-ref
                     >
-                      <Link to="/Skills">Skills</Link>
-                    </li>
-                    <li
-                      class="hover:text-3xl duration-300 py-1 hover:text-blue-500"
-                      data-te-nav-item-ref
-                    >
                       <Link to="/Projects">Projects</Link>
                     </li>
                     <li
@@ -127,7 +115,6 @@ class App extends Component {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/About" element={<AboutMe />} />
-              <Route path="/Skills" element={<Skills />} />
               <Route path="/Projects" element={<Project />} />
               <Route path="/Contact" element={<ContactMe />} />
             </Routes>

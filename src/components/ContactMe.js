@@ -37,7 +37,7 @@ class ContactMe extends Component{
         const socialList = socials.map((s) => (
             <div data-aos="fade-up" className="group/ic w-max mx-auto">
             <a target="_blank" href={s.link}>
-                <img src={s.imageSrc} alt={s.name} className="scale-75 md:scale-100 h-32 w-32 mx-auto md:my-10 group-hover/ic:mb-2" />
+                <img src={s.imageSrc} alt={s.name} className="scale-75 md:scale-100 h-32 w-32 mx-auto md:my-10 group-hover/ic:mb-1" />
                 <div className="md:hidden group-hover/ic:flex">
                         <p className="mx-auto">{s.name}</p>
                 </div>
@@ -50,9 +50,10 @@ class ContactMe extends Component{
                 <div className="cursor-default container">
                     <div>
                         <h2 className="text-2xl font-bold mb-10">Get in Touch</h2>
-                        <p className="text-emerald-500 mb-10 animate-pulse">
-                            Want to send me a banana? You can't but I would like to hear from you anyway
+                        <p className="text-emerald-400 mb-10 animate-pulse">
+                            Want to send me a banana? You can't but I would like to hear from you anyway.
                         </p>
+                    
                     <div data-aos="fade-right" className="text-lg sm:text-2xl">
                         <div className="flex items-center mb-2 pb-3">
                             <svg className="w-10 h-10 text-emerald-500 mr-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
@@ -77,6 +78,9 @@ class ContactMe extends Component{
                     </div>
 
                 </div>
+                <p className="text-emerald-300 mt-10">
+                            For inquiries, please reach me through my socials first.
+                        </p>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-7">
                         {socialList}
                         </div>
