@@ -78,9 +78,6 @@ class ContactMe extends Component{
                     </div>
 
                 </div>
-                <p className="text-emerald-300 mt-10">
-                            For inquiries, please reach me through my socials first.
-                        </p>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-7">
                         {socialList}
                         </div>
