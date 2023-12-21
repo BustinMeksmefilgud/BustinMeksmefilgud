@@ -2,7 +2,14 @@ import React, { useEffect, useState } from 'react';
 import './TypewriterEffect.css';
 
 const TypewriterEffect = () => {
-  const texts = ["Making it in the digital world one step at a time...                                                    ",
+ 
+    
+  const [currentText, setCurrentText] = useState('');
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [showCursor, setShowCursor] = useState(true);
+
+  useEffect(() => {
+    const texts = ["Making it in the digital world one step at a time...                                                    ",
     "world.execute(me);...                                                    ",
     "Symmetry's overrated me thinks...                                                    ",
     "The worst of times is when you have to force your biggest smile...                                                    ",
@@ -20,13 +27,8 @@ const TypewriterEffect = () => {
     "Good, he's still in One Piece...                                                    ",
     "world.search(you);...                                                    ",
     "You can't see me behind the screen...                                                    ",
+    "No Secret here... maybe...                                                    ",
     "Go next...                                                    "];
-    
-  const [currentText, setCurrentText] = useState('');
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [showCursor, setShowCursor] = useState(true);
-
-  useEffect(() => {
     const timeout = setTimeout(() => {
       setCurrentText((prevText) => {
         const currentLength = prevText.length;

@@ -5,6 +5,7 @@ import Home from './components/Home';
 import AboutMe from './components/AboutMe';
 import Project from './components/Project';
 import ContactMe from './components/ContactMe';
+import Secrets from './components/Secrets';
 
 class App extends Component {
   
@@ -116,6 +117,7 @@ class App extends Component {
               <Route path="/About" element={<AboutMe />} />
               <Route path="/Projects" element={<Project />} />
               <Route path="/Contact" element={<ContactMe />} />
+              <Route path="/Secret" element={<Secrets />} />
             </Routes>
           </div>
           <div class="cursor-default text-center py-5 xl:fixed xl:bottom-60 xl:-right-12 mx-auto text-emerald-300 xl:-rotate-90">
