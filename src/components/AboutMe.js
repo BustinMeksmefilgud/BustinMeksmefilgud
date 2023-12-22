@@ -46,14 +46,20 @@ class AboutMe extends Component {
           name: 'Python Programming',
           imageLink: './assets/img/Python.png',
           description: "I'm currently practicing the basics of Python Programming."
+        },
+        {
+          name: 'Data Analysis',
+          imageLink: './assets/img/PowerBi.png',
+          description: "I'm being taught how to use Power Bi for making easy to read dashboards for data analysis"
         }
+
       ]
     }
 }
   render() {
     const { skills } = this.state;
     const skillList = skills.map((s) => (
-      <div className="tooltip flex" data-tip={s.description}>
+      <div className="p-3 tooltip flex rounded hover:bg-teal-800" data-tip={s.description}>
         <img src={s.imageLink} alt={s.name} className="w-20 h-20 object-contain" />
         <p className="my-auto">{s.name}</p>
       </div>
@@ -61,7 +67,7 @@ class AboutMe extends Component {
 
     const { wip } = this.state;
     const wipList = wip.map((w) => (
-      <div className="tooltip flex" data-tip={w.description}>
+      <div className="p-3 tooltip flex rounded hover:bg-teal-800" data-tip={w.description}>
       <img src={w.imageLink} alt={w.name} className="w-20 h-20 object-contain" />
       <p className="my-auto">{w.name}</p>
     </div>
@@ -99,15 +105,15 @@ class AboutMe extends Component {
 
         <div  class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6 font-normal cursor-default">
           <h1 class="text-5xl font-bold text-emerald-300 mb-4">My Skills</h1>
-          <h3 className="mt-6 mb-5 tooltip" data-tip="These are the skills I used to create my projects">Learned</h3>
-          <div class="text-xl grid mx-auto grid-cols-1 sm:grid-cols-4 md:grid-cols-6 gap-6">
+          <h3 className="ms-44 sm:ms-0 mt-6 mb-5 tooltip text-green-500" data-tip="These are the skills I used to create my projects">Learned</h3>
+          <div class="text-xl grid mx-auto grid-cols-1 sm:grid-cols-3 md:grid-cols-5 gap-6">
             {skillList}
         
           </div>
-          <h3 className="mt-6 mb-5 tooltip" data-tip="These are skills I'm currently learning without any projects yet">Work in Progress</h3>
+          <h3 className="ms-36 sm:ms-0 mt-6 mb-5 tooltip text-yellow-400" data-tip="These are skills I'm currently learning without any projects yet">Work in Progress</h3>
 
-          <div class="text-xl grid mx-auto grid-cols-1 sm:grid-cols-4 md:grid-cols-6 gap-6">
-          {wipList}
+          <div class="text-xl grid mx-auto grid-cols-1 sm:grid-cols-3 md:grid-cols-5 gap-6">
+            {wipList}
         
           </div>
 

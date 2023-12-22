@@ -21,7 +21,7 @@ class Project extends Component{
           name: 'Meals on Wheels',
           imageSrc: './assets/img/MealsOnWheels.png',
           description:
-            'A website that allows members to order hot meals if they are within 10km from the outsourced kitchen but cold meals if above that. Utilizes a donation page that uses the PayPal API in order to send donations.',
+            'A website that allows members to order hot meals if they are within 10km from the outsourced kitchen but cold meals if above that. I worked on the kitchen page, allowing the kitchen to transfer the ordered food to the volunteers/delivery ',
           badges: ['Java', 'Spring', 'MySQL'],
           link: 'https://mealsonwheels.yeems214.xyz/',
         },
@@ -53,6 +53,7 @@ class Project extends Component{
 
       badgeColors: {
         Java: 'bg-green-700',
+        Python: 'bg-yellow-300',
         Spring: 'bg-green-400',
         React: 'bg-teal-500',
         MySQL: 'bg-blue-500',
@@ -68,18 +69,18 @@ class Project extends Component{
       const projectList = projects.map((p) => (
         <div data-aos="flip-left" className="card bg-neutral-900 hover:bg-neutral-800">
             <figure>                
-            <a target="_blank" href={p.link}>    
+            <a target="" href={p.link}>    
               <img src={p.imageSrc} alt="A project of mine" className="object-contain h-60 hover:scale-110 duration-300"/>
             </a>
             </figure>
             <div className="card-body items-center text-center mx-4 px-4 py-3">
-            <h2 className="card-title text-4xl md:text-5xl font-bold my-8 text-center hover:-translate-y-1 hover:scale-110 duration-300"><a target="_blank" href={p.link}>{p.name}</a></h2>
+            <h2 className="card-title text-4xl md:text-5xl font-bold my-8 text-center hover:-translate-y-1 hover:scale-110 duration-300"><a target="" href={p.link}>{p.name}</a></h2>
             <p className="cursor-default">{p.description}</p>
               <div className="m-4 container text-gray-800 text-lg md:text-xl flex flex-wrap">
               {p.badges.map((badge, badgeIndex) => (
-          <div key={badgeIndex}
+            <div key={badgeIndex}
               className="flex rounded-full items-center bg-teal-100 cursor-default hover:bg-teal-900 hover:text-emerald-500 duration-300 px-4 py-2 mt-4 mr-2">
-            <h1 className={`w-4 h-4 sm:w-6 sm:h-6 ${badgeColors[badge]} rounded-full mr-2`}></h1>
+            <h1 className={`w-4 h-4 sm:w-6 sm:h-6 ${badgeColors[badge]} rounded-full mr-2`}> </h1>
             {badge}
           </div>
         ))}

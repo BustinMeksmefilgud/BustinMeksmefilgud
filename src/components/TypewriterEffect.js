@@ -27,7 +27,7 @@ const TypewriterEffect = () => {
     "Good, he's still in One Piece...                                                    ",
     "world.search(you);...                                                    ",
     "You can't see me behind the screen...                                                    ",
-    "No Secret here... maybe...                                                    ",
+    "No /Secret here... maybe...                                                    ",
     "Go next...                                                    "];
     const timeout = setTimeout(() => {
       setCurrentText((prevText) => {

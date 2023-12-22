@@ -36,7 +36,7 @@ class ContactMe extends Component{
         const { socials } = this.state;
         const socialList = socials.map((s) => (
             <div data-aos="fade-up" className="group/ic w-max mx-auto">
-            <a target="_blank" href={s.link}>
+            <a target="" href={s.link}>
                 <img src={s.imageSrc} alt={s.name} className="scale-75 md:scale-100 h-32 w-32 mx-auto md:my-10 group-hover/ic:mb-1" />
                 <div className="md:hidden group-hover/ic:flex">
                         <p className="mx-auto">{s.name}</p>

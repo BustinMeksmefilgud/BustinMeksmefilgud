@@ -121,7 +121,7 @@ class App extends Component {
             </Routes>
           </div>
           <div class="cursor-default text-center py-5 xl:fixed xl:bottom-60 xl:-right-12 mx-auto text-emerald-300 xl:-rotate-90">
-            <p>Sebastian Seth Escarro | 2023</p>
+           <Link to="/About"><p>Sebastian Seth Escarro | 2023</p></Link>
           </div>
         </Router>
         
