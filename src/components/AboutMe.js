@@ -39,6 +39,11 @@ class AboutMe extends Component {
           name: 'Testing and Debugging',
           imageLink: './assets/img/Debugging.png',
           description: 'I have experience with testing and debugging projects using Junit.',
+        },
+        {
+          name: 'Data Analysis',
+          imageLink: './assets/img/PowerBi.png',
+          description: "I have used Power Bi for making easy to read dashboards for data analysis"
         }
       ],
       wip: [
@@ -47,11 +52,7 @@ class AboutMe extends Component {
           imageLink: './assets/img/Python.png',
           description: "I'm currently practicing the basics of Python Programming."
         },
-        {
-          name: 'Data Analysis',
-          imageLink: './assets/img/PowerBi.png',
-          description: "I'm being taught how to use Power Bi for making easy to read dashboards for data analysis"
-        }
+       
 
       ]
     }
