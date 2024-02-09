@@ -38,7 +38,7 @@ class AboutMe extends Component {
         {
           name: 'Testing and Debugging',
           imageLink: './assets/img/Debugging.png',
-          description: 'I have experience with testing and debugging projects using Junit.',
+          description: 'I have experience with testing and debugging projects using Postman.',
         },
         {
           name: 'Data Analysis',
@@ -80,7 +80,7 @@ class AboutMe extends Component {
         <h1 className="text-5xl font-bold text-emerald-300 mb-4">About Me</h1>
         <div className="flex flex-col sm:flex-row cursor-default">
           <div data-aos="fade-right" className="mb-6 sm:mb-0 sm:w-1/2">
-            <img src="./assets/img/me.png" alt="Profile" className="h-5/6 mx-auto" />
+            <img src="./assets/img/me.png" alt="Profile" className="h-5/6 mx-auto rounded-full" />
           </div>
           <div data-aos="fade-left" className="sm:w-1/2 cursor-default text-center">
            
@@ -100,7 +100,9 @@ class AboutMe extends Component {
         <div data-aos="fade-up" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-5xl font-bold mb-8">Education</h1>
             <p className="text-lg sm:text-xl text-emerald-400 leading-relaxed mb-4 pb-9">
-            I am currently pursuing a Computer Studies course at the esteemed University of Cebu - Banilad, equipping me with a strong foundation in computer science principles, programming, software development, algorithms, and database management. Additionally, I am enrolled at Lithan Edculaas in Singapore, actively pursuing a software engineering program to enhance my expertise. This dual enrollment combines theory and practical experience, enabling me to develop innovative software solutions.
+            I am currently pursuing a Computer Studies course at the esteemed University of Cebu - Banilad, equipping me with a strong foundation in computer science principles,
+            programming, software development, algorithms, and database management. Additionally, I am enrolled at Lithan Edculaas in Singapore, actively pursuing a software engineering
+            program to enhance my expertise. This dual enrollment combines theory and practical experience, enabling me to develop innovative software solutions.
             </p>
         </div>
 
