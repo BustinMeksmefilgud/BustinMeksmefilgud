@@ -106,7 +106,7 @@ class Project extends Component{
           
               <div className="h-60 sm:h-96 m-auto carousel carousel-vertical rounded-box">
                 <div className="carousel-item object-contain h-full w-auto">
-                  <img src="./assets/img/JumpTrackpro.png" alt="Warehouse"/>
+                  <img src="./assets/img/JumpTrackproDash.png" alt="Dashboard"/>
                 </div> 
                 <div className="carousel-item object-contain h-full w-auto">
                   <img src="./assets/img/JumpTrackproArchive.png" alt="Request/History"/>
@@ -115,7 +115,7 @@ class Project extends Component{
                   <img src="./assets/img/JumpTrackproStore.png"  alt="Store"/>
                 </div> 
                 <div className="carousel-item object-contain h-full w-auto">
-                  <img src="./assets/img/JumpTrackproDash.png"  alt="Dashboard"/>
+                  <img src="./assets/img/JumpTrackpro.png"  alt="Warehouse"/>
                 </div> 
               </div>
                
