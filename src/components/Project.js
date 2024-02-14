@@ -104,17 +104,17 @@ class Project extends Component{
 
             <div data-aos="fade-up" className="grid grid-cols-1 lg:grid-cols-2 bg-neutral-900 hover:bg-neutral-800 p-10 rounded">
           
-              <div className="h-60 sm:h-96 m-auto carousel carousel-vertical rounded-box">
-                <div className="carousel-item object-contain h-full w-auto">
+              <div className="h-44 sm:h-72 m-auto carousel carousel-vertical rounded-box">
+                <div className="carousel-item h-full">
                   <img src="./assets/img/JumpTrackproDash.png" alt="Dashboard"/>
                 </div> 
-                <div className="carousel-item object-contain h-full w-auto">
+                <div className="carousel-item h-auto">
                   <img src="./assets/img/JumpTrackproArchive.png" alt="Request/History"/>
                 </div> 
-                <div className="carousel-item object-contain h-full w-auto">
+                <div className="carousel-item object-contain">
                   <img src="./assets/img/JumpTrackproStore.png"  alt="Store"/>
                 </div> 
-                <div className="carousel-item object-contain h-full w-auto">
+                <div className="carousel-item object-contain">
                   <img src="./assets/img/JumpTrackpro.png"  alt="Warehouse"/>
                 </div> 
               </div>
