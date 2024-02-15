@@ -102,46 +102,52 @@ class Project extends Component{
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
             <h1 className="text-5xl font-bold mb-8 cursor-default">My Projects</h1>
 
-            <div data-aos="fade-up" className="grid grid-cols-1 lg:grid-cols-2 bg-neutral-900 hover:bg-neutral-800 p-10 rounded">
-          
-              <div className="h-48 sm:h-72 m-auto carousel carousel-vertical rounded-box">
-                <div className="carousel-item h-full">
-                  <img src="./assets/img/JumpTrackproDash.png" alt="Dashboard"/>
+            <div data-aos="fade-up" className="bg-neutral-900 hover:bg-neutral-800 p-10 rounded justify-items-center">
+              
+              <h2 className="cursor-default text-4xl md:text-5xl font-bold my-2 text-center hover:-translate-y-1 hover:scale-110 duration-300">
+                <a target="" href="https://github.com/BustinMeksmefilgud/JumpTrackPro">JumpTrack Pro</a>
+              </h2>
+
+            
+              <div className="h-48 sm:h-60 lg:h-96 md:w-5/6 md:ms-20 mt-2 carousel carousel-vertical rounded-box">
+                <div className="carousel-item scale-90 sm:scale-75">
+                  <img src="./assets/img/JumpDash.png" alt="Dashboard"/>
                 </div> 
-                <div className="carousel-item h-auto">
-                  <img src="./assets/img/JumpTrackproArchive.png" alt="Request/History"/>
+                <div className="carousel-item scale-90 sm:scale-75">
+                  <img src="./assets/img/JumpArchive.png" alt="Request/History"/>
                 </div> 
-                <div className="carousel-item object-contain">
-                  <img src="./assets/img/JumpTrackproStore.png"  alt="Store"/>
+                <div className="carousel-item scale-90 sm:scale-75">
+                  <img src="./assets/img/JumpStore.png"  alt="Store"/>
                 </div> 
-                <div className="carousel-item object-contain">
-                  <img src="./assets/img/JumpTrackpro.png"  alt="Warehouse"/>
+                <div className="carousel-item scale-90 sm:scale-75">
+                  <img src="./assets/img/JumpWare.png"  alt="Warehouse"/>
                 </div> 
               </div>
-               
-           
-              <div className="ps-10">
-                
-                <h2 className="cursor-default text-4xl md:text-5xl font-bold my-8 text-center hover:-translate-y-1 hover:scale-110 duration-300">
-                  <a target="" href="https://github.com/BustinMeksmefilgud/JumpTrackPro">JumpTrack Pro</a>
-                </h2>
+             
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="col-span-1">
+                  <h3 className="my-6">Description:</h3>
+                  <p className="cursor-default text-center text-lg">An inventory management system that shows warehouse stock and allows managers to order stock
+                    for their stores and make sales. Lists products, employees, and stores that have the most sales. Created using React
+                    and Spring.</p>
+                </div>
 
-                <p className="cursor-default text-center text-lg">An inventory management system that shows warehouse stock and allows managers to order stock
-                  for their stores and make sales. Lists products, employees, and stores that have the most sales. Created using React
-                  and Spring.</p>
-
-                <h3 className="mt-6">Features:</h3>
-                <ul className="text-lg list-disc ps-12">
-                  <li>3 User Types (Admin, Manager, Employee)</li>
-                  <li>View of the warehouse products</li>
-                  <li>Employees and Managers can sell items</li>
-                  <li>Managers can order items for their store</li>
-                  <li>Admin can accept or deny orders</li>
-                  <li>Dasboard that shows data regarding employees, products, and stores with the most sales and total revenue</li>
-                  <li>Every transaction saved in the database</li>
-                </ul>
+                <div className="col-span-1">
+                  <h3 className="mt-6">Features:</h3>
+                  <ul className="text-lg list-disc ps-0 sm:ps-4">
+                    <li>3 User Types (Admin, Manager, Employee)</li>
+                    <li>View of the warehouse products</li>
+                    <li>Employees and Managers can sell items</li>
+                    <li>Managers can order items for their store</li>
+                    <li>Admin can accept or deny orders</li>
+                    <li>Dasboard that shows data regarding employees, products, and stores with the most sales and total revenue</li>
+                    <li>Every transaction saved in the database</li>
+                  </ul>
+                </div>
               </div>
-              <div className="m-4 container text-gray-800 text-lg md:text-xl flex flex-wrap col-span-1 lg:col-span-2">
+
+              <div className="m-4 container text-gray-800 text-lg md:text-xl flex flex-wrap col-span-2">
                   {featured}
                 </div>
             </div>
@@ -150,7 +156,7 @@ class Project extends Component{
 
             <h3 className="mb-4 mt-6">Other Projects</h3>
 
-            <div className="text-base sm:text-lg grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+            <div className="text-base sm:text-lg grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4">
       
             {projectList}
                        
