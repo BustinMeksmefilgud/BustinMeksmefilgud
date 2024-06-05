@@ -18,6 +18,14 @@ class Project extends Component{
         //   link: 'https://github.com/BustinMeksmefilgud/JumpTrackPro',
         // },
         {
+          name: 'Order in the Court',
+          imageSrc: './assets/img/GameCourt.png',
+          description:
+            'A simple 1v1 fighting game made using Java. Has 4 main attacks with different properties and sizes. (Characters owned by Capcom)',
+          badges: ['Java'],
+          link: 'https://github.com/pointlessduffin-21/ea-2-fighting-game',
+        },
+        {
           name: 'Meals on Wheels',
           imageSrc: './assets/img/MealsOnWheels.png',
           description:

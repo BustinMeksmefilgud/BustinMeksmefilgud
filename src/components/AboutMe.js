@@ -26,12 +26,12 @@ class AboutMe extends Component {
           description: 'I worked with Spring Tool Suite and Eclipse IDE in developing using Spring Boot with Spring Security for encryption and authentication.',
         },
         {
-          name: 'Database Management',
+          name: 'MySQL Database Management',
           imageLink: './assets/img/MySql.png',
           description: 'I have done work with databases using MySql Workbench.',
         },
         {
-          name: 'React Development',
+          name: 'React JS',
           imageLink: './assets/img/React.png',
           description: 'I have used React to create front-end designs while using REST API for connecting with the back-end and I am familiar with Bootstrap and Tailwindcss.',
         },
@@ -44,8 +44,25 @@ class AboutMe extends Component {
           name: 'Data Analysis',
           imageLink: './assets/img/PowerBi.png',
           description: "I have used Power Bi for making easy to read dashboards for data analysis"
+        },
+        {
+          name: 'React Native',
+          imageLink: './assets/img/React.png',
+          description: "I am using react native for developing an app for Android and IOS, utilizing useStates, useEffects and working with estylesheets"
+        },
+        {
+          name: 'Firestore',
+          imageLink: './assets/img/Firestore.png',
+          description: "I am using firestore for saving information for the current project from my current company"
+        },
+        {
+          name: 'Google AI Studio',
+          imageLink: './assets/img/Gemini.png',
+          description: "I am familiar with using google ai studio for generating prompts using AI"
         }
       ],
+
+
       wip: [
         {
           name: 'Python Programming',
@@ -126,10 +143,16 @@ class AboutMe extends Component {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-20">
           <h1 className="text-5xl font-bold mb-8">Work Experience</h1>
 
-          <h3>Byrocs</h3>
+          <h3>Byrocs (October 2023 - November 2023)</h3>
           <ul className="text-lg text-emerald-400 list-disc ps-12">
-            <li className="text-lg text-emerald-400">1 month work trial</li>
-            <li className="text-lg text-emerald-400">Content and Design for Website</li>
+            <li className="text-lg sm:text-xl text-emerald-400">Conducted a 1-month work trial at Byrocs, focusing on content creation and website design.</li>
+            <li className="text-lg sm:text-xl text-emerald-400">Created content for their social media pages</li>
+          </ul>
+
+          <h3 className="mt-12">Kura Kura (March 2024 - Present)</h3>
+          <ul className="text-lg text-emerald-400 list-disc ps-12">
+            <li className="text-lg sm:text-xl text-emerald-400"> Engaged as a Full-Stack Developer at Kura Kura, Developed new features for the project</li>
+            <li className="text-lg sm:text-xl text-emerald-400">Managed various AI factors such as context and token handling for optimal responses</li>
           </ul>
 
         </div>
