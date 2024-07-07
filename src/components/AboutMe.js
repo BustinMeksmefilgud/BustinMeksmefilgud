@@ -48,8 +48,13 @@ class AboutMe extends Component {
         {
           name: 'React Native',
           imageLink: './assets/img/React.png',
-          description: "I am using react native for developing an app for Android and IOS, utilizing useStates, useEffects and working with estylesheets"
+          description: "I used react native for developing an app for Android and IOS, utilizing useStates, useEffects and working with estylesheets"
         },
+        {
+          name: 'Expo CLI',
+          imageLink: './assets/img/Expo.png',
+          description: 'I have used Expo in along with react native in order to develop a mobile app.',
+          },
         {
           name: 'Firestore',
           imageLink: './assets/img/Firestore.png',
@@ -69,13 +74,29 @@ class AboutMe extends Component {
           imageLink: './assets/img/Python.png',
           description: "I'm currently practicing the basics of Python Programming."
         },
-       
+      ],
 
+      exp: [
+        {
+          company: 'Byrocs (October 2023 - November 2023)',
+          roles: [
+            'Conducted a 1-month work trial at Byrocs, focusing on content creation and website design.',
+            'Created content for their social media pages'
+          ]
+        },
+        {
+          company: 'Kura Kura (March 2024 - June 2024)',
+          roles: [
+            'Engaged as a Full-Stack Developer at Kura Kura, Developed new features for the project',
+            'Managed various AI factors such as context and token handling for optimal responses',
+            'Fixed major bugs and handled any quick changes asked of me',
+          ]
+        },
       ]
     }
 }
   render() {
-    const { skills } = this.state;
+    const { skills } = this.state
     const skillList = skills.map((s) => (
       <div className="p-3 tooltip flex rounded hover:bg-teal-800" data-tip={s.description}>
         <img src={s.imageLink} alt={s.name} className="w-20 h-20 object-contain" />
@@ -83,11 +104,23 @@ class AboutMe extends Component {
       </div>
     ));
 
-    const { wip } = this.state;
+    const { wip } = this.state
     const wipList = wip.map((w) => (
       <div className="p-3 tooltip flex rounded hover:bg-teal-800" data-tip={w.description}>
       <img src={w.imageLink} alt={w.name} className="w-20 h-20 object-contain" />
       <p className="my-auto">{w.name}</p>
+    </div>
+    ));
+
+    const { exp } = this.state
+    const expList = exp.map((e) => (
+      <div>
+        <h3 className="mt-8">{e.company}</h3>
+        <ul className="text-lg text-emerald-400 list-disc ps-12">
+          {e.roles.map((eroles) => (
+            <li className="text-lg sm:text-xl text-emerald-400">{eroles}</li>
+          ))}
+      </ul>
     </div>
     ));
 
@@ -141,21 +174,12 @@ class AboutMe extends Component {
 
             
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-20">
-          <h1 className="text-5xl font-bold mb-8">Work Experience</h1>
+          <h1 className="text-5xl font-bold">Work Experience</h1>
 
-          <h3>Byrocs (October 2023 - November 2023)</h3>
-          <ul className="text-lg text-emerald-400 list-disc ps-12">
-            <li className="text-lg sm:text-xl text-emerald-400">Conducted a 1-month work trial at Byrocs, focusing on content creation and website design.</li>
-            <li className="text-lg sm:text-xl text-emerald-400">Created content for their social media pages</li>
-          </ul>
-
-          <h3 className="mt-12">Kura Kura (March 2024 - Present)</h3>
-          <ul className="text-lg text-emerald-400 list-disc ps-12">
-            <li className="text-lg sm:text-xl text-emerald-400"> Engaged as a Full-Stack Developer at Kura Kura, Developed new features for the project</li>
-            <li className="text-lg sm:text-xl text-emerald-400">Managed various AI factors such as context and token handling for optimal responses</li>
-          </ul>
+          {expList}
 
         </div>
+      
       </>
 
     );
