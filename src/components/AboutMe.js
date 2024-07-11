@@ -52,7 +52,7 @@ class AboutMe extends Component {
         },
         {
           name: 'Expo CLI',
-          imageLink: './assets/img/Expo.png',
+          imageLink: './assets/img/expo.png',
           description: 'I have used Expo in along with react native in order to develop a mobile app.',
           },
         {
