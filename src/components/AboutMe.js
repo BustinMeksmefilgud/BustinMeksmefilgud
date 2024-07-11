@@ -96,23 +96,24 @@ class AboutMe extends Component {
     }
 }
   render() {
-    const { skills } = this.state
+    const { skills, wip, exp } = this.state
     const skillList = skills.map((s) => (
-      <div className="p-3 tooltip flex rounded hover:bg-teal-800" data-tip={s.description}>
+      <div className="p-3 tooltip flex rounded hover:bg-teal-800 bg-teal-900" data-tip={s.description}>
         <img src={s.imageLink} alt={s.name} className="w-20 h-20 object-contain" />
         <p className="my-auto">{s.name}</p>
       </div>
     ));
 
-    const { wip } = this.state
-    const wipList = wip.map((w) => (
-      <div className="p-3 tooltip flex rounded hover:bg-teal-800" data-tip={w.description}>
-      <img src={w.imageLink} alt={w.name} className="w-20 h-20 object-contain" />
-      <p className="my-auto">{w.name}</p>
-    </div>
-    ));
+    let wipList
+    if (wip) {
+      wipList = wip.map((w) => (
+        <div className="p-3 tooltip flex rounded hover:bg-teal-800 bg-teal-900" data-tip={w.description}>
+        <img src={w.imageLink} alt={w.name} className="w-20 h-20 object-contain" />
+        <p className="my-auto">{w.name}</p>
+      </div>
+      ));
+    }
 
-    const { exp } = this.state
     const expList = exp.map((e) => (
       <div>
         <h3 className="mt-8">{e.company}</h3>
@@ -163,12 +164,17 @@ class AboutMe extends Component {
             {skillList}
         
           </div>
-          <h3 className="ms-36 sm:ms-0 mt-6 mb-5 tooltip text-yellow-400" data-tip="These are skills I'm currently learning without any projects yet">Work in Progress</h3>
+          {wip && (
+            <>
+            <h3 className="ms-36 sm:ms-0 mt-6 mb-5 tooltip text-yellow-400" data-tip="These are skills I'm currently learning without any projects yet">Work in Progress</h3>
 
-          <div class="text-xl grid mx-auto grid-cols-1 sm:grid-cols-3 md:grid-cols-5 gap-6">
-            {wipList}
-        
-          </div>
+            <div class="text-xl grid mx-auto grid-cols-1 sm:grid-cols-3 md:grid-cols-5 gap-6">
+              {wip && wipList}
+          
+              </div>
+              </>
+          )}
+      
 
         </div>
 

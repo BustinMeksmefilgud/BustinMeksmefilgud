@@ -26,25 +26,25 @@ class App extends Component {
                 </label>
                 <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 bg-slate-900">
                 <li
-                      class="hover:text-3xl duration-300 py-1 hover:text-blue-500"
+                      class="hover:text-3xl duration-300 py-1 hover:text-blue-800"
                       data-te-nav-item-ref
                     >
                       <Link to="/">Home</Link>
                     </li>
                     <li
-                      class="hover:text-3xl duration-300 py-1 hover:text-blue-500"
+                      class="hover:text-3xl duration-300 py-1 hover:text-blue-800"
                       data-te-nav-item-ref
                     >
                       <Link to="/About">About Me</Link>
                     </li>
                     <li
-                      class="hover:text-3xl duration-300 py-1 hover:text-blue-500"
+                      class="hover:text-3xl duration-300 py-1 hover:text-blue-800"
                       data-te-nav-item-ref
                     >
                       <Link to="/Projects">Projects</Link>
                     </li>
                     <li
-                      class="hover:text-3xl duration-300 py-1 hover:text-blue-500"
+                      class="hover:text-3xl duration-300 py-1 hover:text-blue-800"
                       data-te-nav-item-ref
                     >
                       <Link to="/Contact">Contact Me</Link>

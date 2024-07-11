@@ -14,7 +14,7 @@ class Project extends Component{
         //   imageSrc: './assets/img/JumpTrackpro.png',
         //   description:
         //     'An inventory management system that shows warehouse stock and allows managers to order stock for their stores and make sales. Lists products, employees, and stores that have the most sales. Created using React and Spring.',
-        //   badges: ['Java', 'Spring', 'React', 'MySQL', 'JWT', 'REST'],
+        //   badges: ['Java', 'Spring', 'ReactJS', 'MySQL', 'JWT', 'REST'],
         //   link: 'https://github.com/BustinMeksmefilgud/JumpTrackPro',
         // },
         {
@@ -38,7 +38,7 @@ class Project extends Component{
           imageSrc: './assets/img/Picture2.png',
           description:
             'A website that shows facilities added by users. Made using ReactJS and Spring tool Suite. Integrates Facebook Login API.',
-          badges: ['Java', 'Spring', 'React', 'MySQL', 'REST'],
+          badges: ['Java', 'Spring', 'ReactJS', 'MySQL', 'REST'],
           link: 'https://github.com/BustinMeksmefilgud/Know-Your-Neighboorhood',
         },
         {
@@ -63,14 +63,16 @@ class Project extends Component{
         Java: 'bg-gradient-to-b from-red-400 from-50% to-blue-500 to-50%',
         Python: 'bg-gradient-to-tl from-yellow-400 from-50% to-blue-500 to-50%',
         Spring: 'bg-green-400',
-        React: 'bg-teal-500',
+        ReactJS: 'bg-teal-500',
+        ReactNative: 'bg-teal-400',
+        Expo: 'bg-gray-900',
         MySQL: 'bg-blue-500',
         SpringMVC: 'bg-green-500',
-        JWT: 'bg-zinc-900',
+        JWT: 'bg-zinc-700',
         REST: 'bg-cyan-300',
       },
 
-      featuredBadges: ['Java', 'Spring', 'React', 'MySQL', 'JWT', 'REST']
+      featuredBadges: ['Java', 'Spring', 'ReactJS', 'MySQL', 'JWT', 'REST']
     }
   }
 // Make it so that when hovered, badges will have the color instead of the dots
