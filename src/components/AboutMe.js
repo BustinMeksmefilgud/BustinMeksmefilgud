@@ -74,6 +74,11 @@ class AboutMe extends Component {
           imageLink: './assets/img/Python.png',
           description: "I'm currently practicing the basics of Python Programming."
         },
+        {
+          name: 'PHP Programming',
+          imageLink: './assets/img/PHP.png',
+          description: "I'm currently practicing the basics of PHP for web development."
+        },
       ],
 
       exp: [
@@ -98,7 +103,7 @@ class AboutMe extends Component {
   render() {
     const { skills, wip, exp } = this.state
     const skillList = skills.map((s) => (
-      <div className="p-3 tooltip flex rounded hover:bg-teal-800 bg-teal-900" data-tip={s.description}>
+      <div className="p-3 tooltip flex rounded hover:bg-teal-600 bg-teal-900" data-tip={s.description}>
         <img src={s.imageLink} alt={s.name} className="w-20 h-20 object-contain" />
         <p className="my-auto">{s.name}</p>
       </div>
@@ -107,9 +112,9 @@ class AboutMe extends Component {
     let wipList
     if (wip) {
       wipList = wip.map((w) => (
-        <div className="p-3 tooltip flex rounded hover:bg-teal-800 bg-teal-900" data-tip={w.description}>
+        <div className="p-3 tooltip flex rounded hover:bg-teal-700 bg-teal-800" data-tip={w.description}>
         <img src={w.imageLink} alt={w.name} className="w-20 h-20 object-contain" />
-        <p className="my-auto">{w.name}</p>
+        <p className="my-auto text-emerald-500">{w.name}</p>
       </div>
       ));
     }
