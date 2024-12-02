@@ -90,7 +90,7 @@ class AboutMe extends Component {
           ]
         },
         {
-          company: 'Kura Kura (March 2024 - June 2024)',
+          company: 'Kura Kura (March 2024 - Present)',
           roles: [
             'Engaged as a Full-Stack Developer at Kura Kura, Developed new features for the project',
             'Managed various AI factors such as context and token handling for optimal responses',

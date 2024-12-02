@@ -18,7 +18,7 @@ class App extends Component {
         <Router>
           <div class="font-mono text-emerald-300 text-2xl md:text-3xl pb-20">
 
-          <div className="group navbar">
+          <div className="group navbar h-32">
             <div className="navbar-start">
               <div className="dropdown lg:hidden me-5">
                 <label tabIndex={0} className="btn btn-ghost btn-circle">
@@ -51,18 +51,10 @@ class App extends Component {
                     </li>
                 </ul>
               </div>
-            <p class="lg:flex hidden items-center group-hover:animate-bounce">
-                  <img
-                    src="./assets/img/log.png"
-                    class="xl:animate-pulse"
-                    alt="logo"
-                    height="100"
-                    width="100"
-                  />
-                </p>
-            <p class="xl:flex hidden fixed items-center group-hover:animate-bounce">
+            <p class="lg:flex hidden fixed items-center group-hover:animate-bounce">
                 <img
                     src="./assets/img/log.png"
+                    class="xl:animate-pulse"
                     alt="logo"
                     height="100"
                     width="100"
