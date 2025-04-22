@@ -11,6 +11,44 @@ class AboutMe extends Component {
     this.state = {
       skills: [
         {
+          name: 'React JS',
+          imageLink: './assets/img/React.png',
+          description: 'I have used React to create front-end designs while using REST API for connecting with the back-end and I am familiar with Bootstrap and Tailwindcss.',
+        },
+        {
+          name: 'Testing and Debugging',
+          imageLink: './assets/img/Debugging.png',
+          description: 'I have experience with testing and debugging projects using Postman.',
+        },
+        {
+          name: 'React Native',
+          imageLink: './assets/img/React.png',
+          description: "I used react native for developing an app for Android and IOS, utilizing useStates, useEffects and working with estylesheets"
+        },
+        {
+          name: 'Expo CLI',
+          imageLink: './assets/img/expo.png',
+          description: 'I have used Expo in along with react native in order to develop a mobile app.',
+          },
+        {
+          name: 'Firestore',
+          imageLink: './assets/img/Firestore.png',
+          description: "I am using firestore for saving information for the current project from my current company"
+        },
+        {
+          name: 'Google AI Studio',
+          imageLink: './assets/img/Gemini.png',
+          description: "I am familiar with using google ai studio for generating prompts using AI and I've used Whisper API for generaging transcripts from audio files"
+        },
+        {
+          name: 'Flutter',
+          imageLink: './assets/img/Flutter.png',
+          description: "I am developing an app using flutter for my current company, using dart as the main language"
+        }
+      ],
+
+      experience: [
+        {
           name: 'Web Development',
           imageLink: './assets/img/WebDev.png',
           description: 'I am familiar with how to make websites and I am knowledgeable in using HTML, CSS, and Javascript.',
@@ -31,40 +69,10 @@ class AboutMe extends Component {
           description: 'I have done work with databases using MySql Workbench.',
         },
         {
-          name: 'React JS',
-          imageLink: './assets/img/React.png',
-          description: 'I have used React to create front-end designs while using REST API for connecting with the back-end and I am familiar with Bootstrap and Tailwindcss.',
-        },
-        {
-          name: 'Testing and Debugging',
-          imageLink: './assets/img/Debugging.png',
-          description: 'I have experience with testing and debugging projects using Postman.',
-        },
-        {
           name: 'Data Analysis',
           imageLink: './assets/img/PowerBi.png',
           description: "I have used Power Bi for making easy to read dashboards for data analysis"
         },
-        {
-          name: 'React Native',
-          imageLink: './assets/img/React.png',
-          description: "I used react native for developing an app for Android and IOS, utilizing useStates, useEffects and working with estylesheets"
-        },
-        {
-          name: 'Expo CLI',
-          imageLink: './assets/img/expo.png',
-          description: 'I have used Expo in along with react native in order to develop a mobile app.',
-          },
-        {
-          name: 'Firestore',
-          imageLink: './assets/img/Firestore.png',
-          description: "I am using firestore for saving information for the current project from my current company"
-        },
-        {
-          name: 'Google AI Studio',
-          imageLink: './assets/img/Gemini.png',
-          description: "I am familiar with using google ai studio for generating prompts using AI"
-        }
       ],
 
 
@@ -95,14 +103,23 @@ class AboutMe extends Component {
             'Engaged as a Full-Stack Developer at Kura Kura, Developed new features for the project',
             'Managed various AI factors such as context and token handling for optimal responses',
             'Fixed major bugs and handled any quick changes asked of me',
+            // 'Converted the app from React Native to Flutter',
           ]
         },
       ]
     }
 }
   render() {
-    const { skills, wip, exp } = this.state
-    const skillList = skills.map((s) => (
+    const { skills, experience, wip, exp } = this.state
+
+    const mainSkillList = skills.map((s) => (
+      <div className="p-3 tooltip flex rounded hover:bg-teal-600 bg-teal-900" data-tip={s.description}>
+        <img src={s.imageLink} alt={s.name} className="w-20 h-20 object-contain" />
+        <p className="my-auto">{s.name}</p>
+      </div>
+    ));
+
+    const skillList = experience.map((s) => (
       <div className="p-3 tooltip flex rounded hover:bg-teal-600 bg-teal-900" data-tip={s.description}>
         <img src={s.imageLink} alt={s.name} className="w-20 h-20 object-contain" />
         <p className="my-auto">{s.name}</p>
@@ -164,11 +181,20 @@ class AboutMe extends Component {
 
         <div  class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6 font-normal cursor-default">
           <h1 class="text-5xl font-bold text-emerald-300 mb-4">My Skills</h1>
-          <h3 className="ms-44 sm:ms-0 mt-6 mb-5 tooltip text-green-500" data-tip="These are the skills I used to create my projects">Learned</h3>
+          <h3 className="ms-44 sm:ms-0 mt-6 mb-5 tooltip text-green-500" data-tip="These are the programs and languages I'm currently practicing">Current Skills</h3>
+          <div class="text-xl grid mx-auto grid-cols-1 sm:grid-cols-3 md:grid-cols-5 gap-6">
+            {mainSkillList}
+        
+          </div>
+
+          <h3 className="ms-44 sm:ms-0 mt-6 mb-5 tooltip text-blue-300" data-tip="These are the skills I used to create my projects before">Learned</h3>
           <div class="text-xl grid mx-auto grid-cols-1 sm:grid-cols-3 md:grid-cols-5 gap-6">
             {skillList}
         
           </div>
+
+
+
           {wip && (
             <>
             <h3 className="ms-36 sm:ms-0 mt-6 mb-5 tooltip text-yellow-400" data-tip="These are skills I'm currently learning without any projects yet">Work in Progress</h3>
