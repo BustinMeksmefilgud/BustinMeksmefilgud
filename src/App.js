@@ -1,21 +1,34 @@
 import './App.css';
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import React, { Component, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import Home from './components/Home';
 import AboutMe from './components/AboutMe';
 import Project from './components/Project';
 import ContactMe from './components/ContactMe';
 import Secrets from './components/Secrets';
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  }, [pathname]);
+
+  return null;
+}
+
 class App extends Component {
   
-
   render() {
 
 
     return (
       <div class="bg-gradient-to-tr lg:bg-gradient-to-tl from-teal-900 via-teal-700 to-emerald-700 min-h-screen bg-fixed">
         <Router>
+          <ScrollToTop />
           <div class="font-mono text-emerald-300 text-2xl md:text-3xl pb-20">
 
           <div className="group navbar h-32">

@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import TypewriterEffect from './TypewriterEffect';
+import { Link } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 
 class Home extends Component{
+    
     
     
     render() {
@@ -20,6 +23,16 @@ class Home extends Component{
                             <a target="" href="https://youtu.be/5QOWx5rRPvI">Introduction Video</a>
                         </button>
                     </div>
+                     <Link
+                            to="/About"
+                        >
+                    <div class='group mt-10 flex'>
+                        
+                           <p> Go to About Me </p>
+                        
+                        <p class='ms-5 group-hover:animate-bounce-x'>→</p>
+                    </div>
+                    </Link>
                 </div>
             </div>
        )

@@ -72,7 +72,7 @@ class ContactMe extends Component{
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 14h12M1 4h12M6.5 16.5h1M2 1h10a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1Z"/>
                             </svg>
 
-                            <span className="text-emerald-200">(0917) 104 9083</span>
+                            <span className="text-emerald-200">+63 917 104 9083</span>
                         </div>
                     </div>
                     </div>

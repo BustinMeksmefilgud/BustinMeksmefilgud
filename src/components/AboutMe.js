@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -43,8 +44,13 @@ class AboutMe extends Component {
         {
           name: 'Flutter',
           imageLink: './assets/img/Flutter.png',
-          description: "I am developing an app using flutter for my current company, using dart as the main language"
-        }
+          description: "Iwas developing an app using flutter for my previous company, using dart as the main language"
+        },
+             {
+          name: 'Python Programming',
+          imageLink: './assets/img/Python.png',
+          description: "I've been practicing using python, as well as it's libraries."
+        },
       ],
 
       experience: [
@@ -77,15 +83,11 @@ class AboutMe extends Component {
 
 
       wip: [
-        {
-          name: 'Python Programming',
-          imageLink: './assets/img/Python.png',
-          description: "I'm currently practicing the basics of Python Programming."
-        },
+   
         {
           name: 'PHP Programming',
           imageLink: './assets/img/PHP.png',
-          description: "I'm currently practicing the basics of PHP for web development."
+          description: "I dabbled a bit with the basics of PHP for web development."
         },
       ],
 
@@ -98,7 +100,7 @@ class AboutMe extends Component {
           ]
         },
         {
-          company: 'Kura Kura (March 2024 - Present)',
+          company: 'Kura Kura (March 2024 - May 2025)',
           roles: [
             'Engaged as a Full-Stack Developer at Kura Kura, Developed new features for the project',
             'Managed various AI factors such as context and token handling for optimal responses',
@@ -215,8 +217,14 @@ class AboutMe extends Component {
 
           {expList}
 
+          <Link to="/Projects">
+            <div class='group mt-10 flex'>
+              <p> Go to Projects </p>
+              <p class='ms-5 group-hover:animate-bounce-x'>→</p>
+            </div>
+          </Link>
         </div>
-      
+  
       </>
 
     );

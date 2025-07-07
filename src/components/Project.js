@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 class Project extends Component{
@@ -171,7 +172,12 @@ class Project extends Component{
             {projectList}
                        
             </div>
-            
+               <Link to="/Contact">
+                      <div class='group mt-10 flex'>
+                        <p> Go to Contact Me </p>
+                        <p class='ms-5 group-hover:animate-bounce-x'>→</p>
+                      </div>
+                    </Link>
           </div>
         );
       }
